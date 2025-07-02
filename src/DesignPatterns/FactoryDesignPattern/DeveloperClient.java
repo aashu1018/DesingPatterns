@@ -4,7 +4,7 @@ public class DeveloperClient {
 
     public static void main(String[] args) {
 
-        //Here we have tight coupling and also the responsibility of object creation lies with the client
+        //Here we have tight coupling, and also the responsibility of object creation lies with the client
 //        Employee employee = new BackendDeveloper();
 //        Employee employee1 = new FullStackDeveloper();
 
