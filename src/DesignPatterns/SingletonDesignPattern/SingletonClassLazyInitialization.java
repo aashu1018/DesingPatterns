@@ -6,7 +6,7 @@ public class SingletonClassLazyInitialization {
 
     private SingletonClassLazyInitialization(){}
 
-    //might create trouble in a multi-threaded environment since multiple thread may try to
+    //might create trouble in a multithreaded environment since multiple threads may try to
     // create the object at the same time
 //    public static SingletonClassLazyInitialization getInstance(){
 //        if(singletonInstance==null){
