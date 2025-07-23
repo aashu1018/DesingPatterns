@@ -2,7 +2,7 @@
 
 Design patterns are **reusable solutions** to common problems encountered in software design. In Java, they represent established **best practices** that help developers create applications that are more **flexible**, **maintainable**, and **scalable**.
 
-Design patterns are typically categorized into **three main types**, based on their purpose:
+Design patterns are typically categorized into **3 main types**, based on their purpose:
 
 ---
 
