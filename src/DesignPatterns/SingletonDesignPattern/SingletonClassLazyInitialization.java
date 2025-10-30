@@ -26,4 +26,12 @@ public class SingletonClassLazyInitialization {
         }
         return singletonInstance;
     }
+
+    //T1 checks singletonInstance == null → true
+    //enters synchronized block.
+    //Before T1 creates instance, T2 also checks singletonInstance == null → still true
+    //waits at synchronized block.
+    //T1 creates instance and exits block.
+    //Now T2 enters synchronized block — if we didn’t check again,
+    //it would create another instance, violating Singleton pattern.
 }
