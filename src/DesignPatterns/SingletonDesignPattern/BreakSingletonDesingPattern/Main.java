@@ -10,7 +10,7 @@ public class Main {
         System.out.println(singletonClass.hashCode());
 
         //Reflection api
-        Constructor<SingletonClass> constructor = SingletonClass.class.getDeclaredConstructor();
+        Constructor<SingletonClass> constructor = SingletonClass.class.getDeclaredConstructor(); //Uses reflection to access the private constructor of SingletonClass
         constructor.setAccessible(true); //Actually invokes the constructor and creates a new object.
         //It does not call getInstance() — it directly calls the constructor at the JVM level
         //we are bypassing getInstance() using Java reflection - that's the whole purpose right?
