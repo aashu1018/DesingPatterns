@@ -2,6 +2,6 @@ package DesignPatterns.ObserverDesingPattern;
 
 public interface Observer {
 
-    void notified(String title);
+    void update(String message);
 
 }

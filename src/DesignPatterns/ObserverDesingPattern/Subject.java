@@ -6,5 +6,5 @@ public interface Subject {
 
     void unsubscribe(Observer ob);
 
-    void newVideoUploaded(String title);
+    void notifyObservers();
 }
