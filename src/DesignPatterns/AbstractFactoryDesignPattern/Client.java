@@ -9,6 +9,6 @@ public class Client {
         System.out.println(e1.salary());
 
         Employee e2 = EmployeeFactory.getEmployee(new FullStackDevFactory());
-        System.out.println(e1.name());
+        System.out.println(e2.name());
     }
 }
