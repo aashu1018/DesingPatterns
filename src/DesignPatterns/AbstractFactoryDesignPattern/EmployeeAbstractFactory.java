@@ -1,6 +1,8 @@
 package DesignPatterns.AbstractFactoryDesignPattern;
 
-abstract public class EmployeeAbstractFactory {
+public interface EmployeeAbstractFactory {
 
-    public abstract Employee createEmployee();
+    Employee createEmployee();
+
+    Manager createManager();
 }
